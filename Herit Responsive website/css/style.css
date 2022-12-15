@@ -1,0 +1,165 @@
+*{box-sizing: border-box; margin:0; padding: 0;}
+.header
+{
+	display: grid;
+	grid-template-columns:1.5fr 5fr 3.5fr;
+	grid-template-rows: 120PX;
+	background-color: black;
+	line-height: 120px;
+	border-bottom: 3px solid #e22b63;
+}
+.logo img
+{
+	margin: 30px 20px;
+
+}
+.navbar li
+{
+	
+	list-style: none;
+	display: inline;
+
+}
+.navbar a
+{
+	text-decoration: none;
+	color: white;
+	font-family: 'Futura LT',sans-serif;
+	margin-right:30px ;
+}
+.appoinment button
+{
+	font-size:18px ;
+	padding: 20px;
+	color: white;
+}
+.A
+{
+	background: transparent;
+	border: 2px solid #e22b63;
+}
+.B
+{
+	margin-left:10px ;
+	background: #e22b63;
+	border: 2px solid #e22b63;
+}
+.bg
+{
+	
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 190px;
+	padding-top: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content
+{
+
+	height: 600px;
+	width: 1200px;
+	display: grid;
+	grid-template-columns: 5fr 5fr;
+	grid-template-rows: 600px;
+	border: 3px solid #e83e8c;
+	overflow: hidden;
+}
+.data
+{
+	background-color: black;
+	padding: 120px 65px 100px 60px;
+
+}
+.data h2
+{
+	margin-top:25px;
+	margin-bottom: 25px;
+	font-size: 75px;
+	color: white;
+}
+.data p
+{
+	color: white;
+	margin-bottom: 20px;
+}
+.data .offer
+{
+	background: #e83e8c;
+	border: 2px solid #e22b63;
+	width: 200px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	font-size: 18px;
+}
+.subject
+{
+	background-size: cover;
+	background-position: center;
+	
+}
+.contain_1
+{
+	display: grid;
+    grid-template-rows:  120px;
+   	grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+   	height: 100%;
+}
+
+.subject_1
+{
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0px;
+	background-color: #e22b63;
+}
+.contain_2
+{
+	display: grid;
+
+    grid-template-rows:  1fr 1fr 1fr;
+   	grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+   	height: 100%;
+}
+.info
+{	background-size: cover;
+	background-position: center;
+	padding: 100px 0px;
+}
+.author
+{
+	width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    float: left;
+    background-size: cover;
+	background-position: center;
+}
+.author_name 
+{
+	padding-left: 20px;
+	float: left;
+}
+.brand_bg
+{
+	background-size: cover;
+	background-position: center;
+	padding: 0px 0px;
+}
+.brands
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 80px;
+	margin-bottom: 50px;
+}
+.Footer
+{
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0px;
+}
