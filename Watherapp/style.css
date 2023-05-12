@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Rubik", "sans-serif";
+  font-family: "Play", "sans-serif";
 }
 body {
   background: url(./Images/bg.png);
@@ -21,18 +24,20 @@ body {
   padding-top: 40px;
   font-size: 40px;
   height: 40px;
-  animation: an 3s ease-out 1 both;
+
   display: inline-block;
+  font-family: "Gruppo", "cursive";
+  font-weight: 800;
 }
 .card {
   width: 90%;
-  max-width: 470px;
+  max-width: 700px;
   animation: an 3s ease-out 1 both;
   color: #fff;
   margin: 50px auto 0;
   padding: 30px 35px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(71, 69, 69, 0.5);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(4px);
@@ -73,6 +78,7 @@ body {
   width: 170px;
   margin-top: 30px;
 }
+
 .weather h1 {
   font-size: 80px;
   font-weight: 500;
@@ -87,6 +93,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
+
   margin-top: 50px;
 }
 .col {
@@ -113,11 +120,24 @@ body {
   margin-top: 10px;
   display: none;
 }
+.footer {
+  color: rgb(175, 211, 210);
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+}
+.footer p b {
+  color: red;
+  font-size: 16px;
+}
 @keyframes an {
   from {
     opacity: 0;
     transform: perspective(500px) translate3d(-35px, -40px, -150px)
-      rotate3d(1, -1, 0, 35deg);
+      rotate3d(1, 0, 0, 90deg);
   }
   to {
     opacity: 1;
